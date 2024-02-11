@@ -14,13 +14,7 @@ header{
     height: 10px;
 
 }
-section div{
-    width: 80%;
-    height: 50px;
-    margin: 20px auto;
-    border-radius: 15px;
 
-}
 
 nav{
     background-color: #ffffff;
@@ -215,6 +209,7 @@ body {
 
     left: 50%;
 
+
 }
 .wpp{
     position: fixed;
@@ -261,9 +256,8 @@ body {
     background-color: transparent;
     background-image: linear-gradient(90deg, #ee3a78 0%, #ffbb17 100%);
     padding: 100px;
-    transition: 0.6s all ease;
     position: relative;
-    display: flex;
+    
     
 }
 .box-bg-mid-contato-home {
@@ -271,12 +265,12 @@ body {
     background-image: linear-gradient(90deg, #1639f3 0%, #36e3bd 88%);
     padding: 30px;
     position: absolute;
-    bottom: -20%;
+    bottom: -15%;
     left: 50%;
-    transform: translate(-50%, 010%);
+    transform: translate(-50%, -50%);
 }
 
-.box-text-mid-contato p {
+.botxt {
     color: #fefefe;
     font-size: 14px;
     font-weight: 500;
@@ -284,7 +278,7 @@ body {
     text-shadow: 0 0 10px rgb(0 0 0 / 30%);
     display: inline-block;
 }
-.box-text-mid-contato a{
+#comttt{
     color: #fff;
     font-size: 14px;
     font-weight: 500;
@@ -327,6 +321,7 @@ body {
 
 .box-bg-produtos-home {
     padding: 100px 0 0 0;
+    z-index: 5;
 }
 .box-sup-title-empresa-home p {
     color: #01d5c9;
@@ -365,23 +360,90 @@ body {
     padding: 10px;
     box-shadow: 0px 0px 15px -5px #000;
     margin: 12px;
+    display: inline-block;
 }
 .lista-galeria-fancy {
     border-bottom: 1px solid #eee;
     text-align: center;
   
 }
-imgs{
-
+.imgs{
     display: inline-block;
 }
 
-footer {
-    padding: 30px 15px;
-    background-color: color-purple;
-    color: #fff;
-}
+
 .aa{
     text-decoration: none;
     color: #fff;
+}
+.box-img-servicos-home {
+    height: 230px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.box-img-servicos-home img {
+    width: 68%;
+    position: relative;
+}
+
+.box-itens-servicos-home {
+    padding: 40px 15px;
+    background: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 0.6s all ease;
+    height: 480px;
+
+}
+
+.box-img-servicos-home {
+    height: 230px;
+}
+
+.box-img-servicos-home {
+    height: 230px;
+}
+
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+
+section div{
+    width: 80%;
+   
+    margin: 20px;
+    border-radius: 15px;
+
+}
+.containe{
+   display: flex;
+   text-align: center;
+}
+.box-btn-servicos-home a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #313131;
+    text-decoration: none;
+    transition: 0.6s all ease;
+    position: relative;
+}
+.t1 {
+    color: #231f20;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    z-index: 4;
+}
+.t2 {
+    font-size: 15px;
+    line-height: 27px;
+    color: #777;
+    margin: 5px 0;
 }
